@@ -1,11 +1,11 @@
-image number,alt,article_heading
-image_1_1.jpg,William Byron,NASCAR News: William Byron And Brad Keselowski Suffer Horrific Crash At Watkins Glen
-image_2_1.jpg,Martin Truex Jr.,Martin Truex Jr. Reveals NASCAR 'Frustrations' - 'Can't Catch A Break'
-image_3_1.jpg,Austin Dillon,NASCAR Fans Slam Austin Dillon After Christopher Bell Crash - 'Needs A Lifetime Ban'
-image_4_1.jpg,Danica Patrick,Danica Patrick Has One-Word Response After Donald Trump Avoids Golf Course Gunman
-image_5_1.jpg,Ryan Blaney,Ryan Blaney Fumes At NASCAR After 'Frustrating' Watkins Glen Crash
-image_6_1.jpg,Lando Norris,Lando Norris Fumes After Azerbaijan Grand Prix: 'It Was Unfair'
-image_7_1.jpg,Lando Norris and Will Joseph,F1 Fans Left 'Crying' After Lando Norris's Race Engineer Shares Emotional Tribute In Baku
-image_8_1.jpg,Max Verstappen,Max Verstappen Reacts to FIA Investigation Following Azerbaijan Grand Prix
-image_9_1.jpg,Oscar Piastri,Jacques Villeneuve Hails Piastri's 'Perfect' Drive in Baku
-image_10_1.jpg,Azerbaijan Grand Prix,F1: FIA Summons 6 Drivers And 1 Team After Multiple Azerbaijan GP Blunders
+article_number,image number,alt,article_heading
+1,1,William Byron,NASCAR News: William Byron And Brad Keselowski Suffer Horrific Crash At Watkins Glen
+2,1,Martin Truex Jr.,Martin Truex Jr. Reveals NASCAR 'Frustrations' - 'Can't Catch A Break'
+3,1,Austin Dillon,NASCAR Fans Slam Austin Dillon After Christopher Bell Crash - 'Needs A Lifetime Ban'
+4,1,Danica Patrick,Danica Patrick Has One-Word Response After Donald Trump Avoids Golf Course Gunman
+5,1,Ryan Blaney,Ryan Blaney Fumes At NASCAR After 'Frustrating' Watkins Glen Crash
+6,1,Lando Norris,Lando Norris Fumes After Azerbaijan Grand Prix: 'It Was Unfair'
+7,1,Lando Norris and Will Joseph,F1 Fans Left 'Crying' After Lando Norris's Race Engineer Shares Emotional Tribute In Baku
+8,1,Max Verstappen,Max Verstappen Reacts to FIA Investigation Following Azerbaijan Grand Prix
+9,1,Oscar Piastri,Jacques Villeneuve Hails Piastri's 'Perfect' Drive in Baku
+10,1,Azerbaijan Grand Prix,F1: FIA Summons 6 Drivers And 1 Team After Multiple Azerbaijan GP Blunders

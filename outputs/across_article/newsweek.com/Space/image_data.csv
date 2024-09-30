@@ -1,14 +1,14 @@
-image number,alt,article_heading
-image_1_1.jpg,Polaris,Video Shows Moment SpaceX Polaris Dawn Mission Returns to Earth
-image_2_1.jpg,Iran Chamran-1 satellite,Iran Launches New Satellite Into Space Using Technology Feared by West
-image_3_1.jpg,Polaris Dawn,SpaceX Polaris Dawn: Video Shows US Billionaire on First Private Spacewalk
-image_4_1.jpg,Polaris Dawn,Watch: Live Polaris Spacewalk
-image_4_2.jpg,Jared Isaacman,Watch: Live Polaris Spacewalk
-image_4_3.jpg,Sarah Gillis,Watch: Live Polaris Spacewalk
-image_5_1.jpg,Europa Clipper,Jupiter Mission to Study Moon's Underground Ocean
-image_6_1.jpg,rocket launch,SpaceX Launches World's First Private Spacewalk Mission
-image_6_2.jpg,A map shows the location of Launch Complex 39A in the Kennedy Space Center on Merritt Island Florida.,SpaceX Launches World's First Private Spacewalk Mission
-image_7_1.jpg,sun filament and aurora,Auroras Forecast Over US After Sun Expels 'Dark Plasma' at Earth
-image_8_1.jpg,exoplanets,'Very Unusual' Shimmying World Challenges Theories on Planet Formation
-image_9_1.jpg,exoplanet hot jupiter,Astronomers Detect 'Powerful Iron Winds' on Ultrahot World
-image_10_1.jpg,asteroid,Watch: Asteroid 'Fireball' Seen After Only Ninth-Ever Pre-Impact Detection
+article_number,image number,alt,article_heading
+1,1,Polaris,Video Shows Moment SpaceX Polaris Dawn Mission Returns to Earth
+2,1,Iran Chamran-1 satellite,Iran Launches New Satellite Into Space Using Technology Feared by West
+3,1,Polaris Dawn,SpaceX Polaris Dawn: Video Shows US Billionaire on First Private Spacewalk
+4,1,Polaris Dawn,Watch: Live Polaris Spacewalk
+4,2,Jared Isaacman,Watch: Live Polaris Spacewalk
+4,3,Sarah Gillis,Watch: Live Polaris Spacewalk
+5,1,Europa Clipper,Jupiter Mission to Study Moon's Underground Ocean
+6,1,rocket launch,SpaceX Launches World's First Private Spacewalk Mission
+6,2,A map shows the location of Launch Complex 39A in the Kennedy Space Center on Merritt Island Florida.,SpaceX Launches World's First Private Spacewalk Mission
+7,1,sun filament and aurora,Auroras Forecast Over US After Sun Expels 'Dark Plasma' at Earth
+8,1,exoplanets,'Very Unusual' Shimmying World Challenges Theories on Planet Formation
+9,1,exoplanet hot jupiter,Astronomers Detect 'Powerful Iron Winds' on Ultrahot World
+10,1,asteroid,Watch: Asteroid 'Fireball' Seen After Only Ninth-Ever Pre-Impact Detection
