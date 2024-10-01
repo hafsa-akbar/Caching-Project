@@ -25,9 +25,6 @@ credentials = Credentials.from_service_account_file(
     key_path,
     scopes=['https://www.googleapis.com/auth/cloud-platform'])
 
-if credentials.expired:
-    credentials.refresh(Request())
-
 PROJECT_ID = 'caching-436119'
 REGION = 'us-east5'
 
@@ -55,7 +52,7 @@ d. Target Audience:
 e. Contextual Fit:
    Given the article headings and alt text, how well do the images align with the overall context of the article or content?
    Are there any specific visual elements that might be crucial for conveying the intended message?
-Consider all of this and rate the similarity on a discrete scale from 0 to 4, where:
+Consider all of this and rate the similarity on a discrete/ordinal scale from 0 to 4, where:
 0: Not replaceable
 1: Somewhat replaceable
 2: Moderately replaceable
@@ -198,6 +195,7 @@ def create_examples(image_paths, labels, similarity_scores, model_type='gpt'):
     return few_shot_examples
 
 def compare_images(image_paths, labels, few_shot_examples, model_type='gpt'):
+
     user_messages = []
 
     for i in range(len(image_paths)):
@@ -235,7 +233,6 @@ def compare_images(image_paths, labels, few_shot_examples, model_type='gpt'):
             
             img1_number = extract_number(image_paths[i]) 
             img2_number = extract_number(image_paths[j])
-            print(image_paths[j], img2_number, article_num2)
             alt_text1 = labels.loc[(labels['article_number'] == article_num1) & (labels['image number'] == img1_number), 'alt'].values[0]
             heading1 = labels.loc[(labels['article_number'] == article_num1) & (labels['image number'] == img1_number), 'article_heading'].values[0]
 
@@ -258,6 +255,9 @@ def compare_images(image_paths, labels, few_shot_examples, model_type='gpt'):
 
     responses = []
     for message in tqdm(user_messages, desc="Processing image pairs"):
+        if credentials.expired:
+            credentials.refresh(Request())
+    
         if not message:
             responses.append(0)
             continue
